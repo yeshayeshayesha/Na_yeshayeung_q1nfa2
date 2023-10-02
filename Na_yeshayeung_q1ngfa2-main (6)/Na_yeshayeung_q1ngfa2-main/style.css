@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    padding:0px;
+    border:0px;
+}
+#navbar{
+    border: 1px solid purple;
+    margin: 5px;
+    padding: 20px;
+    text-align:center;
+    background-color: pink;
+    background-image: linear-gradient(to right, pink,rgb(224, 107, 189));
+}
+
+#links{
+    display:inline;
+}
+
+#navbar #links a{
+    text-decoration: none;
+    padding: 5px;
+    margin:5px;
+    border: 3px solid purple;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-weight: bolder;
+    opacity:.50;
+    transition: 0.10s;
+}
+#navbar #links a:hover{opacity:1; transition:0.9s;}
+#twt{background-color:rgb(168, 78, 96); color:white;}
+#ig{background-color:rgb(212, 133, 104); color:white;}
+#tt{background-color: rgb(240, 248, 126); color:black;}
+#yt{background-color:rgb(110, 206, 110); color: white;}
+#pin{background-color:rgb(86, 86, 196); color:white;}
+.rounded{
+    border-radius:10px;
+}
+
+.banner{
+    background-image: url(caf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: ghostwhite;
+    width: 100vw;
+    height: 40vh;
+}
+
+.banner h1{
+    color: tan;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+   
+}
+
+.banner h1 span{ 
+    color:rgb(126, 81, 68);}
+.banner p{
+     color:white;
+     margin-bottom: 100px;
+     text-align: center;
+    }
+
+.banner a{
+    padding: 20px;
+    margine: 50px;
+    border: 1px solid whitesmoke;
+    background-color:rgb(122, 88, 43);
+
+
+}
